@@ -21,15 +21,6 @@ function getManifest(name, description) {
         },
         "modules": [
             {
-                "type": "data",
-                "uuid": uuidv4(),
-                "version": [
-                    1,
-                    0,
-                    0
-                ]
-            },
-            {
                 "type": "script",
                 "language": "javascript",
                 "uuid": uuidv4(),
