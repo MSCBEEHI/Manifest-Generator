@@ -44,14 +44,6 @@ function getManifest(name, description) {
             {
                 "module_name": "@minecraft/server-ui",
                 "version": "1.0.0-beta"
-            },
-            {
-                "module_name": "@minecraft/server-admin",
-                "version": "1.0.0-beta"
-            },
-            {
-                "module_name": "@minecraft/server-net",
-                "version": "1.0.0-beta"
             }
         ]
     });
