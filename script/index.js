@@ -92,5 +92,5 @@ window.onload = () => {
     let name = prompt('name');
     let description = prompt('description');
     document.getElementById('resultbp').innerHTML = getManifest(name, description).bp;
-    document.getElementById('resultbp').innerHTML = getManifest(name, description).rp;
+    document.getElementById('resultrp').innerHTML = getManifest(name, description).rp;
 };
